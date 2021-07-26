@@ -31,6 +31,7 @@ namespace NetCoreWebapplication
         {
             if (env.IsDevelopment())
             {
+                //Adding comment to start build pipeline
                 app.UseDeveloperExceptionPage();
             }
             else
